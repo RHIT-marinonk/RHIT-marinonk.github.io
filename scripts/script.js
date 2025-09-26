@@ -21,6 +21,6 @@ function loadHTMLFile(select, file) {
 
 document.addEventListener("DOMContentLoaded", () => {
   loadHTMLFile("#navbar-placeholder", "/navbar.html");
-  //loadHTML("#footer-placeholder", "/footer.html");
+  loadHTMLFile("#footer-placeholder", "/footer.html");
 });
 
