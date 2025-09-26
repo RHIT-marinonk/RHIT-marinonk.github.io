@@ -1,8 +1,10 @@
 let navbarMap = {"Home":"https://rhit-marinonk.github.io/", "Resume":"resume.html", "Portfolio":"portfolio.html"};
 let footerMap = {"Linkedin":"resume.html", "Handshake":"resume.html"}
 
-buildHTML("#navbar-placeholder", navbarMap);
-buildHTML("#footer-placeholder", footerMap);
+document.addEventListener("DOMContentLoaded", () => {
+    buildHTML("#navbar-placeholder", navbarMap);
+    buildHTML("#footer-placeholder", footerMap);
+})
 
 //idea from: Professor Stouder (thank you)
 function buildHTML(placeholder, aMap) {
