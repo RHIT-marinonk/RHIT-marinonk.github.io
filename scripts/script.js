@@ -9,12 +9,12 @@ function buildNavBar() {
     newelem.appendChild(document.createElement("ul"));
     for (let element in pages) {
         let li = document.createElement("li");
+        newelem.appendChild(li);
         let page = li.appendChild(document.createElement("a"));
         page.textContent = element;
         console.log(pages[element]);
         page.href = pages[element];
         console.log(page.href);
-        newelem.appendChild(page);
     }
     newelem.appendChild(document.createElement("hr"));
     newelem.appendChild(document.createElement("hr"));
