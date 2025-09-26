@@ -1,6 +1,8 @@
 function loadHTMLFile(id, file) {
   fetch(file)
-    .then(response => response.text())
+    .then(response => {
+      return response.text();
+    })
     .then(data => {
       document.getElementById(id).innerHTML = data;
     })
