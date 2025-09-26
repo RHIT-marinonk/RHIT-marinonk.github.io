@@ -19,7 +19,7 @@ function loadHTMLFile(select, file) {
     })
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("load", () => {
   loadHTMLFile("#navbar-placeholder", "/navbar.html");
   //loadHTML("#footer-placeholder", "/footer.html");
 });
