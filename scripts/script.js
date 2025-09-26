@@ -1,11 +1,19 @@
-function loadHTMLfile(id, file) {
+function loadHTML(selector, file) {
   fetch(file)
-    .then(data => {
-      document.getElementById(id).innerHTML = data;
+    .then(response => {
+      if (!response.ok) throw new Error(`Could not load ${file}`);
+      return response.text();
     })
+    .then(data => {
+      document.querySelector(selector).innerHTML = data;
+    })
+    .catch(error => {
+      console.error(error);
+    });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  loadHTML("#navbar", "/navbar.html");
-  //loadHTML("#footer", "/footer.html");
+  loadHTML("#navbar-placeholder", "/navbar.html");
+  //loadHTML("#footer-placeholder", "/footer.html");
 });
+
