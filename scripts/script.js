@@ -7,14 +7,15 @@ function buildNavBar() {
     let oldelem = document.querySelector("#navbar-placeholder");
     let newelem = document.createElement("div");
     newelem.appendChild(document.createElement("ul"));
-    for (element of pages) {
-        let page = document.createElement("li");
-        page.appendChild("a");
-        page[0].value = element[0];
-        page[0].href = element[1];
+    for (let element in pages) {
+        let li = document.createElement("li");
+        let page = li.appendChild(document.createElement("a"));
+        page.textContent = element;
+        console.log(pages[element]);
+        page.href = pages[element];
+        console.log(page.href);
         newelem.appendChild(page);
     }
-
     newelem.appendChild(document.createElement("hr"));
     newelem.appendChild(document.createElement("hr"));
     oldelem.parentNode.replaceChild(newelem, oldelem)
