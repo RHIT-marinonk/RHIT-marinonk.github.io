@@ -8,11 +8,11 @@
 //    })
 //}
 
-function loadHTMLFile(sel, file) {
+function loadHTMLFile(select, file) {
     fetch(file)
     .then(res => res.text())
     .then(text => {
-        let oldelem = document.querySelector(sel);
+        let oldelem = document.querySelector(select);
         let newelem = document.createElement("div");
         newelem.innerHTML = text;
         oldelem.parentNode.replaceChild(newelem, oldelem)
@@ -21,6 +21,6 @@ function loadHTMLFile(sel, file) {
 
 document.addEventListener("DOMContentLoaded", () => {
   loadHTML("#navbar-placeholder", "/navbar.html");
-  loadHTML("#footer-placeholder", "/footer.html");
+  //loadHTML("#footer-placeholder", "/footer.html");
 });
 
