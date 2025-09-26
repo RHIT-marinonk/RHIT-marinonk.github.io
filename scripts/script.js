@@ -9,7 +9,7 @@ function loadHTMLFile(id, file) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  loadHTML("#navbar", "/navbar.html");
-  loadHTML("#footer", "/footer.html");
+  loadHTML("#navbar-placeholder", "/navbar.html");
+  loadHTML("#footer-placeholder", "/footer.html");
 });
 
