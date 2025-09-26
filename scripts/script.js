@@ -18,7 +18,5 @@ function buildHTML(placeholder, aMap) {
         a.textContent = element;
         a.href = aMap[element];
     }
-    newelem.appendChild(document.createElement("hr"));
-    newelem.appendChild(document.createElement("hr"));
     oldelem.parentNode.replaceChild(newelem, oldelem)
 }
