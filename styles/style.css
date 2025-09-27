@@ -66,6 +66,9 @@ main {
 
 #index {
     text-align: center;
+    align-items: center;
+    margin-top: 50;
+    padding-top: 2.5%;
 }
 
 #headshot {
