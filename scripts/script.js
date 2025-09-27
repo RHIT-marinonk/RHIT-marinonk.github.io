@@ -11,10 +11,10 @@ function buildHTML(placeholder, aMap) {
     let oldelem = document.querySelector(placeholder);
     let newelem = document.createElement("div");
     newelem.classList.add("navbar")
-    newelem.appendChild(document.createElement("ul"));
+    let ul = newelem.appendChild(document.createElement("ul"));
     for (let element in aMap) {
         let li = document.createElement("li");
-        newelem.appendChild(li);
+        ul.appendChild(li);
         let a = li.appendChild(document.createElement("a"));
         a.textContent = element;
         a.href = aMap[element];
