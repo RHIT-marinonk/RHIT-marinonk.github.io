@@ -4,7 +4,7 @@ body {
 }
 
 main {
-    margin: 60px 0px;
+    margin: 60px 20px;
     clear:both
 }
 
@@ -64,12 +64,16 @@ main {
     float: left;
 }
 
+#index {
+    text-align: center;
+}
+
 #headshot {
     height: 75%;
 }
 
 header {
-    font-size: xxx-large
+    font-size: xxx-large;
 }
 
 footer {
@@ -115,19 +119,9 @@ hr {
 .col {
     float: left;
     width: 33%;
+    border-left-style: solid;
+    border-left-color: #2c2c2c;
 }
 .col h1 {
-    text-decoration: underline;
-    text-align: center;
-}
-.col h2 {
-    text-align: center;
-    font-size: larger;
-}
-
-#middle {
-    border-color: #2c2c2c;
-    border-left-style: solid;
-    border-right-style: solid;
-    height: 86%;
+    text-decoration: underline
 }
