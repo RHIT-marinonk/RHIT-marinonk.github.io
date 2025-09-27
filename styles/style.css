@@ -85,19 +85,29 @@ hr {
 .portfolio1 {
     text-align: left;
 }
-
 .portfolio1 img {
     width: 50%;
 }
-
-.portfolio1 h1 {
+.portfolio1 div {
     float: right;
+    width: 45%;
+    margin-left: 20px;
 }
-
 .portfolio1 p {
-    width: 50%;
+    margin-right: 20px;
 }
 
 .portfolio2 {
     text-align: right;
+}
+.portfolio2 img {
+    width: 50%;
+}
+.portfolio2 div {
+    float: left;
+    width: 45%;
+    margin-right: 20px;
+}
+.portfolio2 p {
+    margin-left: 20px;
 }
