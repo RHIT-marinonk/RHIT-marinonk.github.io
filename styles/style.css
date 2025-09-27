@@ -111,3 +111,13 @@ hr {
 .portfolio2 p {
     margin-left: 20px;
 }
+
+.col {
+    float: left;
+    width: 33%;
+    border-left-style: solid;
+    border-left-color: #2c2c2c;
+}
+.col h1 {
+    text-decoration: underline
+}
