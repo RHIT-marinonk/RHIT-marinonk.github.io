@@ -4,7 +4,8 @@ body {
 }
 
 main {
-    margin: auto;
+    margin: 20px;
+    clear:both
 }
 
 .navbar ul {
@@ -12,6 +13,7 @@ main {
     background-color: #2c2c2c;
     padding: 0px;
     margin: 0px;
+    height: 50px;
 }
 
 .navbar a{
@@ -29,4 +31,17 @@ main {
 
 .navbar li{
     float: left;
+}
+
+#headshot {
+    height: 75%
+}
+
+header {
+    font-size: xxx-large
+}
+
+footer {
+    position:fixed;
+    bottom:0;
 }
