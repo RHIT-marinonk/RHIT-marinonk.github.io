@@ -122,8 +122,7 @@ hr {
 .col {
     float: left;
     width: 33%;
-    top: 70;
-    bottom: 70;
+    height: 85%;
 }
 .col h1 {
     text-decoration: underline;
