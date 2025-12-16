@@ -7,7 +7,7 @@
     <body>
 		<div id="navbar-placeholder"></div>
 		<main>
-			<section class="portfolio1">
+			<!-- <section class="portfolio1">
 				<div>
 					<h1>Adventure - C#</h1>
 					<p>
@@ -48,6 +48,23 @@
 					</p>
 				</div>
 				<img alt="A pixel art level containing crates, a player that is a mage, and an exit door" src="photos/elemental_escape.png">
+			</section> -->
+
+			<!-- Project Selector -->
+			<nav class="project-selector">
+				<button onclick="showProject('adventure')">Adventure</button>
+				<button onclick="showProject('perilous')">Perilous Waters</button>
+				<button onclick="showProject('bonfir')">Rōs Bonfīr</button>
+				<button onclick="showProject('elemental')">Elemental Escape</button>
+			</nav>
+
+			<!-- Project Display -->
+			<section id="project-display">
+				<div>
+				<h1 id="project-title"></h1>
+				<p id="project-description"></p>
+				</div>
+				<img id="project-image" alt="">
 			</section>
 		</main>
 	</body>

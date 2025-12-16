@@ -142,3 +142,23 @@ hr {
     border-right-style: solid;
     border-color: #2c2c2c;
 }
+
+
+
+
+.project-selector {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.project-selector button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+#project-display {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
