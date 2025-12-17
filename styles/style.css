@@ -195,8 +195,13 @@ hr {
 }
 
 #project-display img {
-  max-height: 70vh;      
-  width: auto;
-  max-width: 100%;        
-  display: block;
+    max-height: 70vh;
+    width: auto;
+    max-width: 100%;
+    display: block;
+    border: 7px solid #2c2c2c;
+    padding: 2px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    background-color: #2c2c2c;
 }
