@@ -4,7 +4,7 @@ body {
 }
 
 main {
-    margin: 50px 20px;
+    margin: 60px 20px;
     clear:both
 }
 
@@ -64,21 +64,14 @@ main {
     float: left;
 }
 
-/* #index {
-    text-align: center;
-    align-items: center;
-    margin-top: 50;
-    padding-top: 2.5%;
-} */
-
 #index {
   display: flex;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 120px);
   width: calc(100vw - 40px);
 }
 
 #headshot {
-    height: 75%;
+    height: 95%;
 }
 
 .left,
@@ -140,7 +133,7 @@ hr {
 .col {
     float: left;
     width: 33%;
-    height: 85%;
+    height: 100%;
 }
 .col h1 {
     text-decoration: underline;
