@@ -64,15 +64,32 @@ main {
     float: left;
 }
 
-#index {
+/* #index {
     text-align: center;
     align-items: center;
     margin-top: 50;
     padding-top: 2.5%;
+} */
+
+#index {
+  display: flex;
+  min-height: 100vh; /* full screen height */
 }
 
 #headshot {
     height: 75%;
+}
+
+.left,
+.right {
+  width: 50%;
+  padding: 2rem;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
