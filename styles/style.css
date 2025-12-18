@@ -3,11 +3,6 @@ body {
     margin: 0px;
 }
 
-main {
-    margin: 60px 20px;
-    clear:both
-}
-
 .navbar ul {
     list-style-type: none;
     background-color: #2c2c2c;
@@ -64,20 +59,15 @@ main {
     float: left;
 }
 
-/* #index {
-    text-align: center;
-    align-items: center;
-    margin-top: 50;
-    padding-top: 2.5%;
-} */
-
 #index {
   display: flex;
-  min-height: 100vh; /* full screen height */
+  height: calc(100vh - 100px);
+  width: calc(100vw - 40px);
+  margin: 50px 20px;
 }
 
 #headshot {
-    height: 75%;
+    height: 93%;
 }
 
 .left,
