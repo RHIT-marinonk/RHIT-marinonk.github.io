@@ -5,6 +5,8 @@ body {
 
 main {
     margin: 60px 20px;
+    height: calc(100vh - 120px);
+    width: calc(100vw - 40px);
     clear:both
 }
 
@@ -66,8 +68,6 @@ main {
 
 #index {
   display: flex;
-  height: calc(100vh - 120px);
-  width: calc(100vw - 40px);
 }
 
 #headshot {
@@ -133,7 +133,7 @@ hr {
 .col {
     float: left;
     width: 33%;
-    height: 86%;
+    height: 100%;
 }
 .col h1 {
     text-decoration: underline;
